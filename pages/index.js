@@ -1,13 +1,16 @@
-import Banner from '../components/Banner'
-import Header from '../components/Header'
-import Stack from '../components/Stack'
+import Banner from '../components/Banner';
+import Header from '../components/Header';
+import { Projects } from '../components/projects/Projects';
+
+import Stack from '../components/Stack';
 
 export default function IndexPage() {
   return (
     <div>
       <Header />
-      <Banner/>
-      <Stack/>
+      <Banner />
+      <Stack />
+      <Projects />
     </div>
-  )
+  );
 }

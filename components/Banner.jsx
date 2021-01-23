@@ -20,7 +20,7 @@ export default function Banner() {
       }}
     >
       <div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
-        <div className='w-full md:w-2/5 rounded-full '>
+        <div className='w-full md:w-2/4 rounded-full '>
           <LazyLoadImage
             className='rounded-full'
             src={content.header.img}
@@ -32,7 +32,7 @@ export default function Banner() {
           <h2
             className={`${
               animated ? '' : '-translate-y-10 opacity-0'
-            } transform transition duration-1000 ease-in-out text-3xl md:text-5xl font-bold`}
+            } transform transition duration-1000 ease-in-out text-2xl w-2/4 md:text-4xl font-bold lg:pb-2`}
           >
             {content.header.text[0]}
             <br />
